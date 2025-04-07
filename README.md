@@ -2,7 +2,7 @@
 
 Generate bash commands from natural language using AI APIs directly from your terminal. This project provides bash functions that interact with OpenRouter, OpenAI, Anthropic, and locally-hosted AI models (like those served by LM Studio or Ollama).
 
-Inspired by my PowerShell "get-chat-cmd" project [**get-chat-cmd**](https://github.com/J-DubApps/get-chat-cmd).
+Inspired by my PowerShell "**get-chat-cmd**" project [**here**](https://github.com/J-DubApps/get-chat-cmd).
 
 ## Features
 
