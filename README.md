@@ -30,33 +30,35 @@ This solution is intented to run with most major Linux distros and MacOS, but so
     mkdir -p ~/scripts
     cd ~/scripts
     # Download using curl
-    curl -o ai_bash_commands.sh https://raw.githubusercontent.com/YOUR_USERNAME/get-chat-cmd-bash/main/ai_bash_commands.sh 
+    curl -o ai_bash_commands.sh https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/ai_bash_commands.sh 
     # OR download using wget
-    # wget -O ai_bash_commands.sh https://raw.githubusercontent.com/YOUR_USERNAME/get-chat-cmd-bash/main/ai_bash_commands.sh
+    # wget -O ai_bash_commands.sh https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/ai_bash_config.sh.example/ai_bash_commands.sh
     chmod +x ai_bash_commands.sh 
     ```
+    <!--
     *(Note: Replace `YOUR_USERNAME/get-chat-cmd-bash` with the actual repository path once created)*
-
-2.  **Source the Script**:
+    -->
+    
+3.  **Source the Script**:
     Add the following line to your `~/.bashrc` or `~/.zshrc` file (adjust the path if you downloaded it elsewhere):
     ```bash
     source ~/scripts/ai_bash_commands.sh
     ```
     Restart your shell or run `source ~/.bashrc` (or `source ~/.zshrc`).
 
-3.  **Configure API Keys**:
+4.  **Configure API Keys**:
     -   Copy the example configuration file:
         ```bash
         mkdir -p ~/.config
         # Download using curl
-        curl -o ~/.config/ai_bash_config.sh https://raw.githubusercontent.com/YOUR_USERNAME/get-chat-cmd-bash/main/ai_bash_config.sh.example
+        curl -o ~/.config/ai_bash_config.sh https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/ai_bash_config.sh.example
         # OR download using wget
-        # wget -O ~/.config/ai_bash_config.sh https://raw.githubusercontent.com/YOUR_USERNAME/get-chat-cmd-bash/main/ai_bash_config.sh.example
+        # wget -O ~/.config/ai_bash_config.sh https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/ai_bash_config.sh.example
         ```
     -   Edit `~/.config/ai_bash_config.sh` and add your API keys.
     -   Secure the file: `chmod 600 ~/.config/ai_bash_config.sh`
 
-4.  **Install Dependencies (Optional but Recommended)**:
+5.  **Install Dependencies (Optional but Recommended)**:
     -   **jq**: For robust JSON parsing.
         ```bash
         # Debian/Ubuntu
