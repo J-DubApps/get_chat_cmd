@@ -3,8 +3,8 @@
 <img 
   src="https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/get_chat_cmd.gif" 
   alt="Animated GIF" 
-  width="400" 
-  height="250">
+  width="600" 
+  height="350">
 
 Inspired by my PowerShell "**get-chat-cmd**" project [**here**](https://github.com/J-DubApps/get-chat-cmd).
 
