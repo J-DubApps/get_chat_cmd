@@ -108,7 +108,7 @@ Enhanced prompts sent to AI models to improve the accuracy of generated bash com
 
 ## ToDo
 
-Enhance error handling and feedback
+Enhance error handling and feedback  
 Test across different environments (Linux, macOS, WSL)
 
 ## File Structure
