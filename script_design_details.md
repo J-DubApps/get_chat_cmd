@@ -1,8 +1,8 @@
-# Bash Implementation of get-chat-cmd: Quick plan
+# Bash Implementation of get-chat-cmd (originally PowerShell project found [here](https://github.com/J-DubApps/get-chat-cmd))
 
 ## Project Overview
 
-I created a bash implementation of my "get-chat-cmd" PowerShell project, that allows users to pose natural language (plain-English) requests and receive bash commands in return via various AI providers. The implementation will maintain all the core features of my PowerShell project--but adapted for bash environments (tested so far on Ubuntu 24.04 LTS, and MacOS).
+This is a bash implementation of my "[get-chat-cmd](https://github.com/J-DubApps/get-chat-cmd)" PowerShell project: allowing you to pose natural language (plain-English) requests and receive bash commands in return (via various AI providers). The implementation will maintain all the core features of my PowerShell project--but adapted for bash environments (tested so far on Ubuntu 24.04 LTS, and MacOS).
 
 ## Key Requirements
 
