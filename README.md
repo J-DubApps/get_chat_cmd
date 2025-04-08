@@ -1,5 +1,11 @@
 # get-chat-cmd-bash: AI Bash Command Generator
 
+<img 
+  src="https://raw.githubusercontent.com/J-DubApps/get-chat-cmd/main/get-chat-cmd.gif" 
+  alt="Animated GIF" 
+  width="400" 
+  height="250">
+
 Inspired by my PowerShell "**get-chat-cmd**" project [**here**](https://github.com/J-DubApps/get-chat-cmd).
 
 **Generate bash commands from natural language using AI APIs directly from your terminal**. This project provides bash functions that interact with OpenRouter, OpenAI, Anthropic, and locally-hosted AI models (like those served by LM Studio or Ollama).
