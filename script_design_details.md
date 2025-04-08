@@ -1,27 +1,26 @@
-# Bash Implementation of get-chat-cmd: Project Plan
+# Bash Implementation of get-chat-cmd: Quick plan
 
 ## Project Overview
 
-We'll create a bash implementation of the PowerShell project that allows users to pose plain-English requests and receive bash commands in return via various AI providers. The implementation will maintain all the core features of the PowerShell version but adapted for bash environments.
+I created a bash implementation of my "get-chat-cmd" PowerShell project, that allows users to pose natural language (plain-English) requests and receive bash commands in return via various AI providers. The implementation will maintain all the core features of my PowerShell project--but adapted for bash environments (tested so far on Ubuntu 24.04 LTS, and MacOS).
 
 ## Key Requirements
 
 1. **Functionality**:
-   - Support for all AI providers: OpenRouter, OpenAI, Anthropic, and locally-hosted models
+   - Support for my 4 favorite providers: OpenRouter, OpenAI, Anthropic, and locally-hosted models
    - Improved prompt engineering for more accurate bash commands
    - Display commands in terminal and automatically copy to clipboard (when available)
 
 2. **Technical Approach**:
-   - Minimal dependencies, using standard bash features and common utilities
-   - Bash-idiomatic naming convention (e.g., get_chat_cmd1, get_chat_cmd2)
-   - Separate configuration file for API keys
+   - Minimal dependencies, I'm just using standard bash features and common utilities
+   - Separate configuration file for API keys (for now, eventually I'd like to encrypt API keys)
    - Support for both curl and wget with automatic detection
    - JSON parsing with jq (preferred) or Python as fallback
    - Optional clipboard functionality with clear instructions
    - Minimal but informative error messages
    - Simple script that can be downloaded and sourced in .bashrc/.zshrc
 
-## Architecture
+## Design & Flow
 
 ```mermaid
 graph TD
@@ -42,7 +41,7 @@ graph TD
     M[Config File] --> B
 ```
 
-## Implementation Plan
+## Implementation
 
 ### 1. Core Script Structure
 
@@ -73,7 +72,7 @@ graph TD
 
 ### 3. Improved Prompt Engineering
 
-We'll enhance the prompts sent to AI models to improve the accuracy of generated bash commands:
+Enhanced prompts sent to AI models to improve the accuracy of generated bash commands:
 
 1. **Context Enhancement**:
    - Include information about the user's environment (OS, shell version)
@@ -101,33 +100,16 @@ We'll enhance the prompts sent to AI models to improve the accuracy of generated
 1. **Installation Instructions**:
    - Download the script
    - Add source line to .bashrc/.zshrc
-   - Create and configure the config file
+   - Create and configure the config file (see Readme.md for more info)
 
 2. **Dependency Handling**:
    - Detect missing dependencies
    - Provide installation instructions for common platforms (apt, yum, homebrew)
 
-## Development Phases
+## ToDo
 
-### Phase 1: Core Implementation
-1. Create the basic script structure
-2. Implement utility functions
-3. Implement OpenRouter integration (get_chat_cmd1)
-
-### Phase 2: Additional Providers
-1. Implement OpenAI integration (get_chat_cmd2)
-2. Implement Anthropic integration (get_chat_cmd3)
-3. Implement local model integration (get_chat_local)
-
-### Phase 3: Enhancements
-1. Improve prompt engineering
-2. Add clipboard functionality
-3. Enhance error handling and feedback
-
-### Phase 4: Documentation and Testing
-1. Create comprehensive README
-2. Add installation and usage instructions
-3. Test across different environments (Linux, macOS, WSL)
+Enhance error handling and feedback
+Test across different environments (Linux, macOS, WSL)
 
 ## File Structure
 
