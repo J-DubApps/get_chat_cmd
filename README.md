@@ -1,7 +1,7 @@
 # get-chat-cmd-bash: AI Bash Command Generator
 
 <img 
-  src="https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/get_chat_cmd.gif" 
+  src="https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/get_chat_cmd.gif" 
   alt="Animated GIF" 
   width="400" 
   height="250">
