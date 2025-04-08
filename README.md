@@ -1,4 +1,4 @@
-# get-chat-cmd-bash: AI Bash Command Generator
+# get-chat-cmd-bash: AI Command Generator for Bash
 
 <img 
   src="https://raw.githubusercontent.com/J-DubApps/get_chat_cmd/main/get_chat_cmd.gif" 
