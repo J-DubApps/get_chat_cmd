@@ -46,13 +46,17 @@ This solution is intented to run with most major Linux distros and MacOS, but so
     -->
     
 3.  **Source the Script**:
-    Add the following line to your `~/.bashrc` or `~/.zshrc` file (adjust the path if you downloaded it elsewhere):
+    Add the following line to your `~/.bashrc` or `~/.zshrc` file (**note** on MacOS the default is Zshell (zsh) may use `~/.zprofile` instead of `~/.zshrc`)
+    
     ```bash
     source ~/scripts/ai_bash_commands.sh
     ```
+    
+    (adjust the path above if you downloaded the .sh file elsewhere)  
+   
     Restart your shell or run `source ~/.bashrc` (or `source ~/.zshrc`).
 
-4.  **Configure API Keys**:
+5.  **Configure API Keys**:
     -   Copy the example configuration file:
         ```bash
         mkdir -p ~/.config
@@ -64,7 +68,7 @@ This solution is intented to run with most major Linux distros and MacOS, but so
     -   Edit `~/.config/ai_bash_config.sh` and add your API keys.
     -   Secure the file: `chmod 600 ~/.config/ai_bash_config.sh`
 
-5.  **Install Dependencies (Optional but Recommended)**:
+6.  **Install Dependencies (Optional but Recommended)**:
     -   **jq**: For robust JSON parsing.
         ```bash
         # Debian/Ubuntu
