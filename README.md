@@ -111,8 +111,7 @@ The generated command will be displayed in the terminal and (if clipboard tools 
 
 ## TODO
 
--   Implement core utility functions (API requests, JSON parsing, clipboard, dependency checks).
--   Implement provider-specific functions (`get_chat_cmd1`, `get_chat_cmd2`, `get_chat_cmd3`, `get_chat_local`).
+-   Implement core utility installer (API requests, JSON parsing, clipboard, dependency checks).
 -   Refine prompt engineering for better accuracy.
 -   Add comprehensive error handling.
 -   Add testing across different environments.
